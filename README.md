@@ -1,4 +1,3 @@
-# Simple-Website
 # Simple Website with Background Color Change
 
 This is a beginner-friendly project that demonstrates how to build a simple website using **HTML, CSS, and JavaScript**. The website includes a button that changes the background color of the page when clicked.
