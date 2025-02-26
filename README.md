@@ -54,7 +54,6 @@ You can preview the project by opening `index.html` in your browser.
 
 If you'd like to improve this project, fork the repository and submit a pull request. 😊
 
-Replace `your-username` with your actual GitHub username before pushing it to GitHub. Let me know if you need any modifications! 🚀
 
 
 
