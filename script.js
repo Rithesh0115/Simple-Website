@@ -1,5 +1,13 @@
 function changeBackground() {
-    document.body.style.backgroundColor = getRandomColor();
+    const color = getRandomColor();
+    document.body.style.backgroundColor = color;
+    document.getElementById('colorCode').textContent = `Background Color: ${color}`;
+}
+
+function copyColorCode() {
+    const color = document.getElementById('colorCode').textContent.replace('Background Color: ', '');
+    navigator.clipboard.writeText(color);
+    alert('Color code copied: ' + color);
 }
 
 function getRandomColor() {
