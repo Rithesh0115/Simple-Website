@@ -1,53 +1,30 @@
 body {
     font-family: Arial, sans-serif;
+    margin: 0;
     text-align: center;
-    margin: 0; /* remove default margin */
     background-color: #f4f4f4;
 }
 
-/* Navigation bar */
+/* Navbar styling */
 .navbar {
     background-color: #333;
-    padding: 15px;
-    margin-bottom: 30px;
+    overflow: hidden;
+    padding: 10px;
 }
 
-.nav-button {
-    padding: 10px 20px;
-    font-size: 16px;
-    cursor: pointer;
-    background: #007bff;
+.navbar a {
     color: white;
-    border: none;
-    border-radius: 5px;
     text-decoration: none;
-    margin: 0 10px;
-}
-
-.nav-button:hover {
-    background: #0056b3;
-}
-
-/* Content container */
-.container {
-    background: white;
-    padding: 20px;
-    border-radius: 10px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 14px 20px;
     display: inline-block;
 }
 
-/* Buttons */
-button {
-    padding: 10px 20px;
-    font-size: 16px;
-    cursor: pointer;
-    background: #007bff;
-    color: white;
-    border: none;
+.navbar a:hover {
+    background-color: #575757;
     border-radius: 5px;
 }
 
-button:hover {
-    background: #0056b3;
+/* Container styling */
+.container {
+    margin-top: 50px;
 }
